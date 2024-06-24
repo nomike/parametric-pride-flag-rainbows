@@ -1,3 +1,6 @@
 [submodule "openscad_stl_file_generator"]
 	path = openscad_stl_file_generator
 	url = https://github.com/nomike/openscad_stl_file_generator
+[submodule "funcutils"]
+	path = funcutils
+	url = https://github.com/thehans/funcutils.git
