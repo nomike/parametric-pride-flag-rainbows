@@ -1,3 +1,4 @@
+include<funcutils/string.scad>;
 $fn=128;
 
 minimum_height = 1;
@@ -10,7 +11,7 @@ insert_width = 5.1;
 insert_length = 25.5;
 knob_diameter = 2;
 knob_distance = 6;
-color_array = [8, 5, 3, 1, 2, 6, 7];
+color_array = "8,7,6,7,8,5,3";
 
 
 module knob(d, h) {
@@ -59,7 +60,8 @@ module rainbow() {
 
 
 
+
 difference() {
-    rainbow_array(color_array, layer_height, minimum_height, inner_diamter, outer_diameter);
+    rainbow_array([ for (i = split(color_array, ",")) float(i)], layer_height, minimum_height, inner_diamter, outer_diameter);
     cutout();    
 }
