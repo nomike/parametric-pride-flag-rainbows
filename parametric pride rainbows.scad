@@ -9,6 +9,7 @@ insert_width = 5.1;
 insert_length = 25.5;
 knob_diameter = 2;
 knob_distance = 6;
+// Comma separated list of layer heights as integers, starting from the innermost circle
 color_array = "6,5,4,3,2,1";
 
 module knob(d, h) {
