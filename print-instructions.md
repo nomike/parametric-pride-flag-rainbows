@@ -153,7 +153,8 @@ Load filament in this order, and add a color change at the start of the 4th stri
 3. Green
 4. Black
 5. Red
-6. Green
+6. Black
+7. Green
 
 ###### Heterosexual Pride Flag
 
