@@ -37,7 +37,7 @@ Load filament in this order:
 5. Blue
 6. Purple
 
-###### Transgender Flag
+###### Transgender Pride Flag
 
 Load filament in this order:
 
@@ -45,7 +45,7 @@ Load filament in this order:
 2. Light Pink
 3. White
 
-###### Nonbinary Flag
+###### Nonbinary Pride Flag
 
 Load filament in this order:
 
@@ -54,7 +54,7 @@ Load filament in this order:
 3. Purple
 4. Black
 
-###### Asexual Flag
+###### Asexual Pride Flag
 
 Load filament in this order:
 
@@ -63,7 +63,7 @@ Load filament in this order:
 3. White
 4. Purple
 
-###### Bisexual Flag
+###### Bisexual Pride Flag
 
 Load filament in this order:
 
@@ -71,7 +71,7 @@ Load filament in this order:
 2. Purple
 3. Blue
 
-###### Pansexual Flag
+###### Pansexual Pride Flag
 
 Load filament in this order:
 
@@ -79,7 +79,7 @@ Load filament in this order:
 2. Yellow
 3. Blue
 
-###### Lesbian Flag
+###### Lesbian Pride Flag
 
 The lesbian flag contains three shades of orange and three shades of purple.
 I don't want to buy that many different colors of filament, so I've used a little trick.
@@ -126,7 +126,7 @@ with layer heights 7,6,5,1,2,3,4 and load the colors like this:
 
 ###### Gay Mens Pride Flag
 
-Look at [Lesbian Flag](#lesbian-flag) for instructions, as it is printed in the same way.
+Look at [Lesbian Pride Flag](#lesbian-pride-flag) for instructions, as it is printed in the same way.
 
 Load filament in this order:
 
@@ -140,9 +140,9 @@ Load filament in this order:
 8. Dark Green
 9. Dark Blue
 
-###### Abrosexual Flag
+###### Abrosexual Pride Flag
 
-I also didn't have enough colors for that one and faked them with the trick pointed out in [Lesbian Flag](#lesbian-flag).
+I also didn't have enough colors for that one and faked them with the trick pointed out in [Lesbian Pride Flag](#lesbian-pride-flag).
 
 Only it is less colors now.
 

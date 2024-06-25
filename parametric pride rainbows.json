@@ -13,7 +13,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Transgender Flag": {
+        "Transgender Pride Flag": {
             "$fn": "128",
             "color_array": "1,2,3,2,1",
             "inner_diamter": "35",
@@ -25,7 +25,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Nonbinary Flag": {
+        "Nonbinary Pride Flag": {
             "$fn": "128",
             "color_array": "4,3,2,1",
             "inner_diamter": "35",
@@ -37,7 +37,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Asexual Flag": {
+        "Asexual Pride Flag": {
             "$fn": "128",
             "color_array": "4,3,2,1",
             "inner_diamter": "35",
@@ -49,7 +49,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Bisexual Flag": {
+        "Bisexual Pride Flag": {
             "$fn": "128",
             "color_array": "1,1,2,3,3",
             "inner_diamter": "35",
@@ -61,7 +61,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Pansexual Flag": {
+        "Pansexual Pride Flag": {
             "$fn": "128",
             "color_array": "3,2,1",
             "inner_diamter": "35",
@@ -85,7 +85,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Lesbian Flag": {
+        "Lesbian Pride Flag": {
             "$fn": "128",
             "color_array": "9,7,3,1,2,5,8",
             "inner_diamter": "35",
@@ -97,7 +97,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Abrosexual Flag": {
+        "Abrosexual Pride Flag": {
             "$fn": "128",
             "color_array": "5,2,1,3,7",
             "inner_diamter": "35",
