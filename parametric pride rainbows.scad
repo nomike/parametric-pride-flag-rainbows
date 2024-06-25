@@ -1,6 +1,10 @@
 include<funcutils/string.scad>;
 $fn=128;
 
+mode = "rainbow_array"; // [rainbow_array]
+
+intersex = false;
+
 minimum_height = 1;
 layer_height = 0.2;
 outer_diameter = 55;
@@ -11,6 +15,8 @@ knob_diameter = 2;
 knob_distance = 6;
 // Comma separated list of layer heights as integers, starting from the innermost circle
 color_array = "6,5,4,3,2,1";
+_color_array = [ for (i = split(color_array, ",")) float(i)];
+_rainbow_width = (outer_diameter - inner_diamter) / 2;
 
 module knob(d, h) {
     cylinder(d=d, h=h);
@@ -45,7 +51,23 @@ module rainbow_array(array, layer_height, minimum_height, inner_diameter, outer_
     }
 }
 
+module intersex() {
+    circle_height = minimum_height + (max(_color_array) + 1) * layer_height;
+    translate([0, 0 - (inner_diamter + _rainbow_width) / 2, 0]) difference() {
+    
+        echo(_rainbow_width * 0.58)
+        cylinder(d=_rainbow_width * 0.58, h=circle_height);
+        cylinder(d=_rainbow_width * 0.41, h=circle_height);
+    }
+
+}
+
 difference() {
-    rainbow_array([ for (i = split(color_array, ",")) float(i)], layer_height, minimum_height, inner_diamter, outer_diameter);
+    union() {
+        rainbow_array(_color_array, layer_height, minimum_height, inner_diamter, outer_diameter);
+        if (intersex) {
+            intersex();
+        }
+    }
     cutout();    
 }

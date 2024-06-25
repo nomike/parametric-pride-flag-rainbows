@@ -186,3 +186,10 @@ Load filament in this order:
 1. White
 2. Green
 3. Lavender
+
+###### Intersex Pride Flag
+
+Load filament in this order:
+
+1. Yellow
+2. Purple
