@@ -124,7 +124,7 @@ with layer heights 7,6,5,1,2,3,4 and load the colors like this:
 6. Mid Pink
 7. Dark Pink
 
-###### Gay Men’s Pride Flag
+###### Gay Mens Pride Flag
 
 Look at [Lesbian Flag](#lesbian-flag) for instructions, as it is printed in the same way.
 

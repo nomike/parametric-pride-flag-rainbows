@@ -73,7 +73,7 @@
             "minimum_height": "1",
             "outer_diameter": "55"
         },
-        "Gay Men’s Pride Flag": {
+        "Gay Mens Pride Flag": {
             "$fn": "128",
             "color_array": "9,7,3,1,2,5,8",
             "inner_diamter": "35",
