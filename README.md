@@ -27,7 +27,7 @@ I've included pictures of the brooch pins I used in the `images` directory.
 
 #### Thingiverse
 
-<https://thingiverse.com/thing:>
+<https://www.thingiverse.com/thing:6676292>
 
 #### GitHub
 
