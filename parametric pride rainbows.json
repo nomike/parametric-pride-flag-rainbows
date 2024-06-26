@@ -15,7 +15,7 @@
         },
         "Transgender Pride Flag": {
             "$fn": "128",
-            "color_array": "1,2,3,2,1",
+            "color_array": "3,2,1,2,3",
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",

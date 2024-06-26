@@ -41,9 +41,9 @@ Load filament in this order:
 
 Load filament in this order:
 
-1. Light Blue
+1. White
 2. Light Pink
-3. White
+3. Light Blue
 
 ###### Nonbinary Pride Flag
 
