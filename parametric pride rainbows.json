@@ -7,11 +7,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Transgender Pride Flag": {
             "$fn": "128",
@@ -19,11 +21,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Nonbinary Pride Flag": {
             "$fn": "128",
@@ -31,11 +35,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Asexual Pride Flag": {
             "$fn": "128",
@@ -43,11 +49,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Bisexual Pride Flag": {
             "$fn": "128",
@@ -55,11 +63,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Pansexual Pride Flag": {
             "$fn": "128",
@@ -67,23 +77,27 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Gay Mens Pride Flag": {
             "$fn": "128",
-            "color_array": "9,7,3,1,2,5,8",
+            "color_array": "5,4,1,2,3",
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Lesbian Pride Flag": {
             "$fn": "128",
@@ -91,11 +105,27 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
+        },
+        "Lesbian Pride Flag v2": {
+            "$fn": "128",
+            "color_array": "5,4,1,2,3",
+            "inner_diameter": "35",
+            "insert_length": "25.5",
+            "insert_width": "5.0999999999999996",
+            "intersex": "false",
+            "knob_diameter": "2",
+            "knob_distance": "6",
+            "layer_height": "0.20000000000000001",
+            "minimum_height": "1",
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Abrosexual Pride Flag": {
             "$fn": "128",
@@ -103,11 +133,27 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
+        },
+        "Abrosexual Pride Flag v2": {
+            "$fn": "128",
+            "color_array": "6,4,1,2,5",
+            "inner_diameter": "35",
+            "insert_length": "25.5",
+            "insert_width": "5.0999999999999996",
+            "intersex": "false",
+            "knob_diameter": "2",
+            "knob_distance": "6",
+            "layer_height": "0.20000000000000001",
+            "minimum_height": "1",
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Heterosexual Pride Flag": {
             "$fn": "128",
@@ -115,11 +161,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Maverique Pride Flag": {
             "$fn": "128",
@@ -127,11 +175,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Graysexual Pride Flag": {
             "$fn": "128",
@@ -139,11 +189,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Gender Queer Pride Flag": {
             "$fn": "128",
@@ -151,11 +203,13 @@
             "inner_diameter": "35",
             "insert_length": "25.5",
             "insert_width": "5.0999999999999996",
+            "intersex": "false",
             "knob_diameter": "2",
             "knob_distance": "6",
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
         },
         "Intersex Pride Flag": {
             "$fn": "128",
@@ -169,7 +223,24 @@
             "layer_height": "0.20000000000000001",
             "minimum_height": "1",
             "mode": "rainbow_array",
-            "outer_diameter": "55"
+            "outer_diameter": "55",
+            "polyamory": "false"
+        },
+        "Polyamory Pride Flag": {
+            "$fn": "128",
+            "color_array": "3,1,2",
+            "epsilon": "0.01",
+            "inner_diameter": "35",
+            "insert_length": "25.5",
+            "insert_width": "5.0999999999999996",
+            "intersex": "false",
+            "knob_diameter": "2",
+            "knob_distance": "6",
+            "layer_height": "0.20000000000000001",
+            "minimum_height": "1",
+            "mode": "rainbow_array",
+            "outer_diameter": "55",
+            "polyamory": "true"
         }
     }
 }

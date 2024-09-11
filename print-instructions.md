@@ -16,8 +16,24 @@ customizer.
 When you load the STL in prusa slicer, it will show a message that the object looks like a logo and
 will ask you whether it should add color changes automatically. You should confirm this.
 
+**Note:** I've noticed, that the automatic color change detection in prusa slicers is not perfect and sometimes makes mistakes. In particuar it mostly doesn't add a color change for the top most layer.
+
 If you use another slicer software or an older version of prusa slicer, you will have to add the
 color changes manually. Please check your slicer documentation for instructions on how to do this.
+
+##### A few words about filament
+
+There are various brands of filament available with different colors and translucency. In an ideal world, filament will be 100% opaque and you will have the perfectly colored filaments available for the flags you want to print.
+
+In reality though you will have a limited range of filament you own and colors look different based on what's underneath.
+A light blue will look darker if it's on top of a black layer than it would look if the layer below it was white.
+This could sometimes be exploited to your advantage. If you print white, orange, black, orange for example, you could achive two shades of orange.
+
+The example STL files available and generated represent the best I was able to achive with the colors I had available.
+As I bought more different colors of filament, I was able to revise some of them, making them look better. In order to remain backwards compatible, I introduced new versions of those flags and kept the old ones.
+
+You should print single test pieces first and experiment with the filament you own to see what looks best.
+Open the design in OpenSCAD and change the parameters accordingly. In most cases it's sufficient to change the color_array in the customizer.
 
 ##### Instructions for various flags
 
@@ -113,16 +129,16 @@ For the provided example load Filament in this order
 
 It doesn't look perfect, but IMHO the flag is recognizable.
 
-Alternatively you might just buy tons all different colors of filament and print it straight forward
-with layer heights 7,6,5,1,2,3,4 and load the colors like this:
+###### Lesbian Pride Flag v2
+
+An easier version with less stripes which uses less filament changes.
+Even though the top stripe should be a dark orange, red is close enough to look nice and appropriate.
 
 1. White
-2. Light Orange
-3. Mid Orange
-4. Dark Orange
-5. Light Pink
-6. Mid Pink
-7. Dark Pink
+2. Orange
+3. Red
+4. Light Pink
+5. Purple
 
 ###### Gay Mens Pride Flag
 
@@ -155,6 +171,18 @@ Load filament in this order, and add a color change at the start of the 4th stri
 5. Red
 6. Black
 7. Green
+
+###### Abrosexual Pride Flag v2
+
+As I got more variety in filament colors, I could print the flag with less trickery and less filament changes.
+
+1. White
+2. Turqoise / Light Green
+3. Light Rose
+4. Green
+5. Purple
+
+**Note:** As the Light Rose filament I use was a bit too translucent I printed two layers of it for the color to be nice. Consider this when setting the filament changes in your slicer.
 
 ###### Heterosexual Pride Flag
 
@@ -193,3 +221,15 @@ Load filament in this order:
 
 1. Yellow
 2. Purple
+
+###### Polyamory Pride Flag
+
+Load filament in this order:
+
+1. Pink
+2. Light Blue
+3. Dark Purple
+4. White
+5. Yellow
+
+**Note:** White is printed for two layers to better cover the dark purple right underneath.
