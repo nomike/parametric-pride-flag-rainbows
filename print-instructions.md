@@ -241,6 +241,6 @@ This flag is also sometimes used by members of the BDSM community.
 Load filament in this order:
 
 1. White
-2. Blue
+2. Dark Blue
 3. Black
 4. Red
