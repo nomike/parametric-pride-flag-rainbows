@@ -1,7 +1,9 @@
 A simple parametric pride flag rainbow pin generator.
 
-It allows you to generate pins with the colors of the pride flag of your choice and the pins are 
+It allows you to generate pins with the colors of the pride flag of your choice and the pins are
 designed to be printed with any single filament printer.
+
+I've collected more information on the flags, the meaning of the colors and the meaning of the terms used in an [article on my personal website](https://nomike.com/LGBTQ+/pride%20flags/).
 
 #### Usage
 
