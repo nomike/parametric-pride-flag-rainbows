@@ -242,7 +242,7 @@
             "outer_diameter": "55",
             "polyamory": "true"
         },
-        "Leather": {
+        "Leather Pride Flag": {
             "$fn": "128",
             "color_array": "3,2,3,2,1,2,3,2,3",
             "epsilon": "0.01",
