@@ -233,3 +233,14 @@ Load filament in this order:
 5. Yellow
 
 **Note:** White is printed for two layers to better cover the dark purple right underneath.
+
+###### Leather Pride Flag
+
+This flag is also sometimes used by members of the BDSM community.
+
+Load filament in this order:
+
+1. White
+2. Blue
+3. Black
+4. Red

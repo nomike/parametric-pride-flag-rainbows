@@ -5,6 +5,7 @@ mode = "rainbow_array"; // [rainbow_array]
 
 intersex = false;
 polyamory = false;
+leather = false;
 
 epsilon = 0.01;
 minimum_height = 1;
@@ -21,8 +22,7 @@ _color_array = [ for (i = split(color_array, ",")) float(i)];
 _rainbow_width = (outer_diameter - inner_diameter) / 2;
 
 
-_poly_triangle_height = minimum_height + (max(_color_array) + 2) * layer_height;
-
+_base_rainbow_height = minimum_height + (max(_color_array) * layer_height);
 
 module knob(d, h) {
     cylinder(d=d, h=h);
@@ -66,8 +66,13 @@ module intersex() {
 }
 
 module polyamory() {
-   translate([inner_diameter / 2 * 0.9585, 0, -epsilon]) rotate([0, 0, -45]) cube([_rainbow_width / sqrt(2) * 1.3, _rainbow_width / sqrt(2) * 1.3, _poly_triangle_height]);
+    _poly_triangle_height = _base_rainbow_height + (2 * layer_height);
+    translate([inner_diameter / 2 * 0.9585, 0, -epsilon]) rotate([0, 0, -45]) cube([_rainbow_width / sqrt(2) * 1.3, _rainbow_width / sqrt(2) * 1.3, _poly_triangle_height]);
     translate([inner_diameter / 2 * 0.9585 + _rainbow_width /2 * 1.3 - _rainbow_width * 0.45 / 2, -5.2, _poly_triangle_height - epsilon]) linear_extrude(layer_height + epsilon) resize([_rainbow_width * 0.45, 0], auto=true) import("heart.svg");
+}
+
+module leather() {
+    translate([inner_diameter / 2 * 0.9585 + _rainbow_width /2 * 1.3 - _rainbow_width * 0.45 / 2, -5.2, _base_rainbow_height + 1 * layer_height - epsilon]) rotate([0, 0, -45]) linear_extrude(layer_height + epsilon) resize([_rainbow_width * 0.45, 0], auto=true) import("heart.svg");
 }
 
 difference() {
@@ -78,6 +83,9 @@ difference() {
         }
         if (polyamory) {
             polyamory();
+        }
+        if (leather) {
+            leather();
         }
     }
     translate([0,0,-epsilon]) cutout();    
