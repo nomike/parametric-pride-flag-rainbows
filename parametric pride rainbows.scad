@@ -72,7 +72,7 @@ module polyamory() {
 }
 
 module leather() {
-    translate([inner_diameter / 2 * 0.9585 + _rainbow_width /2 * 1.3 - _rainbow_width * 0.45 / 2, -5.2, _base_rainbow_height + 1 * layer_height - epsilon]) rotate([0, 0, -45]) linear_extrude(layer_height + epsilon) resize([_rainbow_width * 0.45, 0], auto=true) import("heart.svg");
+    translate([inner_diameter / 2 * 0.9585 + _rainbow_width /2 * 1.3 - _rainbow_width * 0.45 / 2, -5.2, _base_rainbow_height - layer_height - epsilon]) rotate([0, 0, -45]) linear_extrude(2 * layer_height + epsilon) resize([_rainbow_width * 0.45, 0], auto=true) import("heart.svg");
 }
 
 difference() {
