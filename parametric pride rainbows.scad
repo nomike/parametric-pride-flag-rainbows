@@ -33,7 +33,7 @@ module cutout() {
     cutout_offset = (insert_width / 2) + (inner_diameter / 2) + ((outer_circle_height - (inner_diameter / 2)) / 2);
     assert(cutout_offset - insert_width > inner_diameter / 2, "Warning: Cutout offset is less than inner radius. This will cause the cutout to overlap with the inner circle.");
     // Pin-Cutout
-    translate([(-insert_length / 2), 0 - cutout_offset, 0]) color("Tomato") difference() {
+    translate([(-insert_length / 2), 0 - cutout_offset, 0]) difference() {
         cube([ insert_length, insert_width, layer_height * 2]);
         // Knob 1
         translate([insert_length / 2 - knob_distance / 2 - knob_diameter / 2, insert_width / 2, layer_height * 2]) rotate([180, 0, 0]) knob(d=knob_diameter, h=layer_height * 2);        
@@ -66,7 +66,7 @@ module intersex() {
 }
 
 module polyamory() {
-   translate([inner_diameter / 2 * 0.9585, 0, -epsilon]) rotate([0, 0, -45]) color("Tomato") cube([_rainbow_width / sqrt(2) * 1.3, _rainbow_width / sqrt(2) * 1.3, _poly_triangle_height]);
+   translate([inner_diameter / 2 * 0.9585, 0, -epsilon]) rotate([0, 0, -45]) cube([_rainbow_width / sqrt(2) * 1.3, _rainbow_width / sqrt(2) * 1.3, _poly_triangle_height]);
     translate([inner_diameter / 2 * 0.9585 + _rainbow_width /2 * 1.3 - _rainbow_width * 0.45 / 2, -5.2, _poly_triangle_height - epsilon]) linear_extrude(layer_height + epsilon) resize([_rainbow_width * 0.45, 0], auto=true) import("heart.svg");
 }
 
@@ -83,7 +83,7 @@ difference() {
     translate([0,0,-epsilon]) cutout();    
     
     // trim half of the circle
-    color("black") translate([-outer_diameter, 0, -1]) cube([outer_diameter * 2, outer_diameter, minimum_height + (layer_height * max(_color_array))+2]);
+    translate([-outer_diameter, 0, -1]) cube([outer_diameter * 2, outer_diameter, minimum_height + (layer_height * max(_color_array))+2]);
     // trim inner circle
     translate([0, 0, -epsilon*2]) cylinder(d=inner_diameter + epsilon, h=max(_color_array) + 10 * layer_height + epsilon * 3);
     // outer circle
